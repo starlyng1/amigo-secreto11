@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf5e6;
+  text-align: center;
+}
+
+.cabecera {
+  background-color: #4475f2;
+  color: white;
+  padding: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.cabecera img {
+  width: 100px;
+  margin-top: 10px;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.entrada {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #444cf7;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #3a3ccc;
+}
+
+.sortear-btn {
+  background-color: #ff5722;
+  margin-top: 20px;
+}
+
+.sortear-btn:hover {
+  background-color: #e64a19;
+}
+
+#lista-amigos {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#lista-amigos li {
+  background-color: #fff;
+  margin: 5px auto;
+  width: 250px;
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#sorteio {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
